@@ -369,7 +369,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  font-family: "Arial", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #fff;
 }
 
@@ -398,5 +398,155 @@ img {
   padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.header-top__item {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.header-top__list {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.header-top__link {
+  text-decoration: none;
+}
+
+.header-top__link:nth-child(1) {
+  color: #B4CB9D;
+}
+
+.header-top__use {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (max-width: 850px) {
+  .header-top__list.second {
+    display: none;
+  }
+  .header-top__list {
+    margin: 0 auto;
+  }
+}
+
+.middle-sect__category {
+  margin-right: 10px;
+}
+
+.icons .bx {
+  font-size: 30px;
+}
+
+.icons .bx:nth-child(2) {
+  margin-left: 20px;
+}
+
+.bx-search {
+  display: none;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 880px) {
+  .search-form {
+    display: none;
+  }
+  .bx-search {
+    display: block;
+  }
+}
+
+#header__botom {
+  background-color: #e5e5e5;
+  margin-top: 40px;
+}
+
+select {
+  border: none;
+  background-color: #e5e5e5;
+}
+
+.bottom__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.hero__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero__item:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.hero__link {
+  color: #B4CB9D;
+}
+
+.bg__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin: 40px 0;
+}
+
+.bg__item {
+  background-image: url("../../img/card.png");
+  padding: 30px;
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+}
+
+.bg__span {
+  color: #B4CB9D;
+}
+
+.bg__title {
+  margin-top: 5px;
+}
+
+.bg__btn {
+  display: inline-block;
+  padding: 10px 15px;
+  border: 2px solid #B4CB9D;
+  color: black;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 975px) {
+  .bg__item {
+    margin-bottom: 50px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

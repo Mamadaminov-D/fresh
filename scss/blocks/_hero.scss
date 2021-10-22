@@ -1,0 +1,53 @@
+.hero__list {
+  @include list-unstyled;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero__item:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.hero__link {
+  color: #B4CB9D;
+}
+
+.bg__list {
+  @include list-unstyled;
+  margin: 40px 0;
+}
+
+.bg__item {
+  background-image:url('../../img/card.png');
+  padding: 30px;
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+}
+
+.bg__span {
+  color: #B4CB9D;
+}
+
+.bg__title {
+  margin-top: 5px;
+}
+
+.bg__btn {
+  display: inline-block;
+  padding: 10px 15px;
+  border: 2px solid #B4CB9D;
+  color: black;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-top: 80px;
+}
+
+
+@media screen and (max-width:975px) {
+  .bg__item {
+    margin-bottom:50px ;
+  }
+}

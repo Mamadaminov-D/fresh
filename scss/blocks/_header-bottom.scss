@@ -1,0 +1,21 @@
+#header__botom {
+  background-color: #e5e5e5;
+  margin-top: 40px;
+}
+
+select {
+  border: none;
+  background-color: #e5e5e5;
+}
+
+.bottom__list {
+  @include list-unstyled;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  flex-wrap: wrap;
+}
+
+
+
+

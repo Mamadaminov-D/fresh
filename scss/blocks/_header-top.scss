@@ -1,0 +1,32 @@
+.header-top__item {
+  @include list-unstyled;
+  margin-right: 30px;
+}
+
+.header-top__list {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.header-top__link {
+  text-decoration: none;
+
+  &:nth-child(1) {
+    color: #B4CB9D;
+  }
+}
+
+.header-top__use {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (max-width:850px) {
+  .header-top__list.second {
+    display: none;
+  }
+
+  .header-top__list {
+    margin: 0 auto;
+  }
+}

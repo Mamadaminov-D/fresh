@@ -1,15 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lesson</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/flexboxgrid.min.css">
   <link rel="stylesheet" href="css/main.min.css">
 </head>
+
 <body>
+
+  <section id="header-top">
+    <div class="container">
+      <div class="inner row between-xs">
+        <ul class="header-top__list row">
+          <li class="header-top__item"><a class="header-top__link" href="#">Chat with us</a></li>
+          <li class="header-top__item"><a class="header-top__use" href="tel">+420 336 775 664</a></li>
+          <li class="header-top__item"><a class="header-top__use" href="#">info@freshnesecom.com</a></li>
+        </ul>
+
+        <ul class="header-top__list second row">
+          <li class="header-top__item"><a class="header-top__link" href="#">Blog</a></li>
+          <li class="header-top__item"><a class="header-top__link" href="tel">About Us</a></li>
+          <li class="header-top__item"><a class="header-top__link" href="#">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <header>
+    <div class="container">
+      <div class="wrapper">
+        <img src="img/Freshnesecom.svg" alt="logo">
+        <form class="search-form row" action="https://echo.htmlacademy.ru/" method="post">
+          <p class="middle-sect__category">All categories</p>
+          <input class="middle-sect__input" type="search" name="search" id="search" placeholder="Search Products,"
+            aria-label="search" required>
+        </form>
+        <div class="icons row">
+          <i class='bx bx-search'></i>
+          <i class='bx bx-user'></i>
+          <i class='bx bx-shopping-bag'></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="header__botom">
+    <div class="container">
+      <div class="big">
+        <ul class="bottom__list">
+          <li class="bottom__item">
+            <select class="select__menu" name="menu" id="">
+              <option value="menu__item">Pharmacy</option>
+            </select></li>
+          <li class="bottom__item">
+            <select class="select__menu" name="menu" id="">
+              <option value="menu__item">Fruit and vegetables</option>
+            </select></li>
+          <li class="bottom__item">
+            <select class="select__menu" name="menu" id="">
+              <option value="menu__item">Meat and fish</option>
+            </select></li>
+          <li class="bottom__item">
+            <select class="select__menu" name="menu" id="">
+              <option value="menu__item">Drinks</option>
+            </select></li>
+          <li class="bottom__item">
+            <select class="select__menu" name="menu" id="">
+              <option value="menu__item">Kitchen</option>
+            </select></li>
+          <li class="bottom__item">
+            <select class="select__menu" name="menu" id="">
+              <option value="menu__item">Special nutrition</option>
+            </select></li>
+          <li class="bottom__item">
+            <select class="select__menu" name="menu" id="">
+              <option value="menu__item">Baby</option>
+            </select></li>
+          <li class="bottom__item">
+            <select class="select__menu" name="menu" id="">
+              <option value="menu__item">Pharmacy</option>
+            </select></li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="hero-sectiom">
+    <div class="container">
+      <div class="regular row between-xs">
+        <div class="col-md-3">
+          <h2 class="hero__title">Category menu </h2>
+          <ul class="hero__list">
+            <li class="hero__item"><a href="#" class="hero__link">Bakery</a></li>
+            <li class="hero__item"><a href="#" class="hero__link">Fruit and vegetables</a></li>
+            <li class="hero__item"><a href="#" class="hero__link">Meat and fish</a></li>
+            <li class="hero__item"><a href="#" class="hero__link">Drinks</a></li>
+            <li class="hero__item"><a href="#" class="hero__link">Kitchen</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-8 row ">
+          <ul class="bg__list row between-xs col-md-12">
+            <li class="bg__item col-md-5  between-xs"> 
+              <span class="bg__span">Banner subfocus</span>
+              <h2 class="bg__title">Space for heading</h2>
+              <a href="#" class="bg__btn">road recepies</a>
+            </li>
+            <li class="bg__item col-md-5  between-xs"> 
+              <span class="bg__span">Banner subfocus</span>
+              <h2 class="bg__title">Space for heading</h2>
+              <a href="#" class="bg__btn">road recepies</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
   <script src="js/main.js"></script>
 </body>
+
 </html>
