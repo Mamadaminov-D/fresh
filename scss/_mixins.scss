@@ -3,3 +3,18 @@
   margin: 0;
   list-style: none;
 }
+
+@mixin price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+@mixin price-btn {
+    font-size: 12px;
+    padding: 6px 8px;
+    color: #fff;
+    background-color: green;
+    border-radius: 10px;
+}

@@ -1,0 +1,34 @@
+.formers__item {
+  padding: 5px 10px;
+}
+
+.formers__item-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+}
+
+.formers__item-txt {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #575757;
+}
+
+.cost-div {
+  align-items: center
+}
+
+.cost__title {
+  @include price;
+  margin-left: 20px
+}
+
+.cost__btn {
+@include price-btn;
+margin-right: 25px;
+
+}

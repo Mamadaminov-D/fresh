@@ -1,0 +1,35 @@
+.word {
+  align-items: center;
+}
+
+.row__txt {
+  padding-right: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.coustumer__list {
+  align-items: center;
+  text-align: center;
+}
+
+.coustemer__item {
+  padding: 5px 75px;
+}
+
+.coustumer__span {
+  display: block;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #A9A9A9;
+  padding: 10px 0;
+}
+
+.coustumer__item-txt {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  text-align: center;
+}

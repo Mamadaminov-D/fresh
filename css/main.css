@@ -378,6 +378,12 @@ img {
   height: auto;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 /* VISUALLY-HIDDEN */
 .visually-hidden {
   position: absolute;
@@ -582,6 +588,11 @@ a {
   color: #575757;
 }
 
+.iskander2 {
+  width: 182.83px;
+  height: 121.88px;
+}
+
 .price-div {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -594,8 +605,9 @@ a {
 .price__title {
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 27px;
+  margin-left: 15px;
 }
 
 .price__btn {
@@ -605,5 +617,124 @@ a {
   background-color: green;
   border-radius: 10px;
   margin-right: 15px;
+}
+
+@media screen and (max-width: 950px) {
+  .prduct__item-title {
+    font-size: 24px;
+  }
+  .prduct__item-txt {
+    font-size: 26px;
+  }
+  .price__btn {
+    font-size: 14px;
+    padding: 14px 16px;
+  }
+  .price__title {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .prduct__item-title {
+    font-size: 18px;
+  }
+  .prduct__item-txt {
+    font-size: 16px;
+  }
+  .price__btn {
+    font-size: 10px;
+    padding: 10px 12px;
+  }
+  .price__title {
+    font-size: 20px;
+  }
+}
+
+.word {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row__txt {
+  padding-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.coustumer__list {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.coustemer__item {
+  padding: 5px 75px;
+}
+
+.coustumer__span {
+  display: block;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #A9A9A9;
+  padding: 10px 0;
+}
+
+.coustumer__item-txt {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  text-align: center;
+}
+
+.formers__item {
+  padding: 5px 10px;
+}
+
+.formers__item-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+}
+
+.formers__item-txt {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #575757;
+}
+
+.cost-div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cost__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 20px;
+}
+
+.cost__btn {
+  font-size: 12px;
+  padding: 6px 8px;
+  color: #fff;
+  background-color: green;
+  border-radius: 10px;
+  margin-right: 25px;
 }
 /*# sourceMappingURL=main.css.map */

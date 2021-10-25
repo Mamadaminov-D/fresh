@@ -28,6 +28,11 @@
   color: #575757;
 }
 
+.iskander2 {
+  width: 182.83px;
+  height: 121.88px;
+}
+
 .price-div {
   align-items: center;
   justify-content: space-between;
@@ -36,8 +41,9 @@
 .price__title {
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 27px;
+  margin-left: 15px;
 }
 
 .price__btn {
@@ -47,4 +53,40 @@
   background-color: green;
   border-radius: 10px;
   margin-right: 15px;
+}
+
+@media screen and (max-width:950px) {
+  .prduct__item-title {
+    font-size: 24px;
+  }
+  .prduct__item-txt {
+    font-size: 26px;
+  }
+
+  .price__btn {
+    font-size: 14px;
+    padding: 14px 16px;
+  }
+
+  .price__title {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width:540px) {
+  .prduct__item-title {
+    font-size: 18px;
+  }
+  .prduct__item-txt {
+    font-size: 16px;
+  }
+
+  .price__btn {
+    font-size: 10px;
+    padding: 10px 12px;
+  }
+
+  .price__title {
+    font-size: 20px;
+  }
 }
