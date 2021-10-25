@@ -1,0 +1,101 @@
+#blog-section {
+  margin-top: 50px;
+}
+
+.blog-div {
+  margin: 0;
+}
+
+.chef {
+  background-image: url(../../img/egg.png);
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-size: 95% 420px;
+  margin-bottom: 50px;
+}
+
+.chef__span-first {
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 10px;
+  color: green;
+  background-color: #fff;
+}
+
+.chef__title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #fff;
+  margin-top: 230px;
+}
+
+.chef__txt {
+  color: #fff;
+  padding-bottom: 15px;
+  margin-left: 60px;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 50px;
+    position: absolute;
+    top: -17px;
+    left: -64px;
+    background-image: url(/img/kars.png);
+  }
+}
+
+.chef__span {
+  padding-left: 20px;
+}
+
+.egg__span-first {
+  display: block;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6A983C;
+  margin-top: 10px;
+}
+
+.egg__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.egg__txt {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.smal-div {
+  width: 65%;
+}
+
+.fruits__item-title {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.fruits__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.fruit__img {
+  width: 30%;
+  background-size: contain;
+}
+
+.fruit__txt {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.fruit__span {
+  color: #151515;
+}
