@@ -946,4 +946,84 @@ a {
     margin-top: 100px;
   }
 }
+
+.catigories__item {
+  font-size: 14px;
+  line-height: 19px;
+  color: #151515;
+}
+
+.catigories__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.catigories__big-div {
+  margin-top: 30px;
+}
+
+.catigories__item span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6A983C;
+  padding-left: 40px;
+}
+
+.catigories__small-div {
+  border: 1px solid black;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+
+.catigories__small-div img {
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.star__tile {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+
+.star__txt {
+  font-size: 12px;
+  line-height: 16px;
+  color: #575757;
+}
+
+.star__span {
+  font-size: 14px;
+  line-height: 19px;
+  padding-left: 15px;
+}
+
+.star2__span {
+  font-size: 12px;
+  line-height: 17px;
+  display: block;
+}
+
+.star__btn {
+  border-radius: 10px;
+  background-color: green;
+  display: inline-block;
+  padding: 10px 12px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.ss {
+  margin-left: 40px;
+}
+
+#catigories-section {
+  margin-bottom: 50px;
+}
+
+#f-footer-section {
+  margin-bottom: 40px;
+}
 /*# sourceMappingURL=main.css.map */
