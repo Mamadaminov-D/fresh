@@ -14,6 +14,14 @@
   &:nth-child(1) {
     color: #B4CB9D;
   }
+
+  &:hover {
+    color: green;
+  }
+
+  &:active  {
+  color: #222;
+  }
 }
 
 .header-top__use {

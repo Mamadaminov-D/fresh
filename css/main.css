@@ -426,6 +426,14 @@ ul {
   color: #B4CB9D;
 }
 
+.header-top__link:hover {
+  color: green;
+}
+
+.header-top__link:active {
+  color: #222;
+}
+
 .header-top__use {
   text-decoration: none;
   color: #000;
@@ -484,6 +492,32 @@ select {
   background-color: #e5e5e5;
 }
 
+.bottom__item:hover {
+  position: relative;
+}
+
+.bottom__item:hover .penal-div {
+  display: block;
+}
+
+.penal-div {
+  display: none;
+  position: absolute;
+  top: 28px;
+  left: 30px;
+  background-color: #fff;
+  padding: 10px 12px;
+}
+
+.penal__item {
+  margin-bottom: 5px;
+}
+
+.penal__item:hover {
+  z-index: 1;
+  position: relative;
+}
+
 .bottom__list {
   padding: 0;
   margin: 0;
@@ -517,6 +551,14 @@ a {
   color: #B4CB9D;
 }
 
+.hero__link:hover {
+  color: green;
+}
+
+.hero__link:active {
+  color: #222;
+}
+
 .bg__list {
   padding: 0;
   margin: 0;
@@ -548,6 +590,17 @@ a {
   font-weight: bold;
   border-radius: 15px;
   margin-top: 80px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.bg__btn:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.bg__btn:active {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 975px) {
@@ -612,6 +665,14 @@ a {
   background-color: green;
   border-radius: 10px;
   margin-right: 15px;
+}
+
+.price__btn:hover {
+  opacity: 0.7;
+}
+
+.price__btn:active {
+  background-color: #222;
 }
 
 @media screen and (max-width: 950px) {
@@ -733,6 +794,14 @@ a {
   margin-right: 25px;
 }
 
+.cost__btn:hover {
+  opacity: 0.7;
+}
+
+.cost__btn:active {
+  background-color: #222;
+}
+
 #blog-section {
   margin-top: 50px;
 }
@@ -849,6 +918,14 @@ a {
   line-height: 19px;
   color: #6A983C;
   padding-bottom: 10px;
+}
+
+.f-footer__item:hover {
+  opacity: 0.5;
+}
+
+.f-footer__item:active {
+  color: #111;
 }
 
 .last__list {

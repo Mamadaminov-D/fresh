@@ -8,6 +8,34 @@ select {
   background-color: #e5e5e5;
 }
 
+.bottom__item:hover {
+  position: relative;
+}
+
+.bottom__item:hover {
+  .penal-div {
+    display: block;
+  }
+}
+
+.penal-div {
+  display: none;
+  position: absolute;
+  top: 28px;
+  left: 30px;
+  background-color: #fff;
+  padding: 10px 12px
+}
+
+.penal__item {
+  margin-bottom: 5px;
+
+  &:hover {
+    z-index: 1;
+    position: relative;
+  }
+}
+
 .bottom__list {
   @include list-unstyled;
   display: flex;

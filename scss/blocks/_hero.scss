@@ -12,6 +12,14 @@ a {
 
 .hero__link {
   color: #B4CB9D;
+
+  &:hover {
+    color: green;
+  }
+
+  &:active  {
+  color: #222
+  }
 }
 
 .bg__list {
@@ -43,6 +51,16 @@ a {
   font-weight: bold;
   border-radius: 15px;
   margin-top: 80px;
+  transition: all 0.4s ease;
+
+  &:hover {
+    background-color: green;
+    color: #fff;
+  }
+
+  &:active  {
+   opacity: 0.5;
+  }
 }
 
 

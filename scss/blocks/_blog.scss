@@ -114,6 +114,14 @@
   line-height: 19px;
   color: #6A983C;
   padding-bottom: 10px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    color: #111;
+  }
 }
 
 .last__list {
