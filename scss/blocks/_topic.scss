@@ -1,0 +1,26 @@
+.topic__span {
+  display: inline-block;
+  background-color: #e5e5e5;
+  color: green;
+  font-size: 14px;
+  padding: 4px 6px;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+.topic__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+
+.topic__txt {
+  font-size: 12px;
+  line-height: 16px;
+  color: #151515;
+}
+
+.topic__txt time {
+  padding-left: 17px;
+}
